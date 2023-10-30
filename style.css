@@ -1,6 +1,7 @@
 h1,
 h2,
-footer {
+footer,
+.more-publications {
   text-align: center;
 }
 
@@ -16,22 +17,66 @@ small {
   font-family: "Poppins", sans-serif;
 }
 
+h3,
 p,
 li {
   line-height: 21px;
   font-size: 18px;
 }
 
+h1 {
+  font-size: 42px;
+}
+
 h2 {
+  font-size: 32px;
   margin-top: 45px;
+  letter-spacing: 1px;
 }
 
 ul {
   list-style-type: circle;
 }
 
+img {
+  border-radius: 15px;
+  margin-top: 25px;
+  transition: all 150ms ease-in-out;
+  width: 100%;
+}
+
+img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 30px;
+}
+
 .container {
   max-width: 800px;
   margin: 0 auto;
   text-align: left;
+}
+
+.moonlight-book-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+}
+
+.meryle-lancelot-book-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 20px;
+}
+
+.flash-fiction-stories {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+.flash-fiction-stories:hover {
+  text-decoration: underline;
 }

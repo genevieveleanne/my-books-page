@@ -5,16 +5,16 @@ footer,
   text-align: center;
 }
 
-h1,
-h2,
-footer {
-  font-family: "Lobster Two", sans-serif;
-}
-
 p,
 li,
-small {
+small,
+footer {
   font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Lobster Two", sans-serif;
 }
 
 h3,
@@ -22,6 +22,14 @@ p,
 li {
   line-height: 21px;
   font-size: 18px;
+}
+
+.moonlight-book-grid,
+.meryle-lancelot-book-grid {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 20px;
 }
 
 h1 {
@@ -61,15 +69,11 @@ footer {
 }
 
 .moonlight-book-grid {
-  display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 20px;
 }
 
 .meryle-lancelot-book-grid {
-  display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-gap: 20px;
 }
 
 .flash-fiction-stories {

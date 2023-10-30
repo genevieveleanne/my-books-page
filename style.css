@@ -1,6 +1,37 @@
 h1,
 h2,
-h3,
 footer {
   text-align: center;
+}
+
+h1,
+h2,
+footer {
+  font-family: "Lobster Two", sans-serif;
+}
+
+p,
+li,
+small {
+  font-family: "Poppins", sans-serif;
+}
+
+p,
+li {
+  line-height: 21px;
+  font-size: 18px;
+}
+
+h2 {
+  margin-top: 45px;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
 }

@@ -1,3 +1,11 @@
+p,
+li,
+h3,
+small,
+footer {
+  color: #ac64f0;
+}
+
 h1,
 h2,
 footer,
@@ -15,9 +23,9 @@ footer {
 h1,
 h2 {
   font-family: "Lobster Two", sans-serif;
+  color: #f534d9;
 }
 
-h3,
 p,
 li {
   line-height: 21px;
@@ -32,14 +40,23 @@ li {
   grid-gap: 20px;
 }
 
+body {
+  background-color: #f7f3ff;
+}
+
 h1 {
   font-size: 42px;
+  letter-spacing: 2px;
 }
 
 h2 {
   font-size: 32px;
   margin-top: 45px;
   letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 25px;
 }
 
 ul {
@@ -59,7 +76,7 @@ img:hover {
 }
 
 footer {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .container {

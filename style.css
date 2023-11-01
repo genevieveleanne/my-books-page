@@ -14,6 +14,7 @@ footer,
 }
 
 p,
+button,
 li,
 small,
 footer {
@@ -47,6 +48,24 @@ body {
 h1 {
   font-size: 42px;
   letter-spacing: 2px;
+}
+
+button {
+  margin-top: 10px;
+  background-color: #f7f3ff;
+  color: #ac64f0;
+  border: 2px solid #ac64f0;
+  font-size: 18px;
+  padding: 7px 10px;
+  border-radius: 30px;
+  transition: all 150ms ease-in-out;
+}
+
+button:hover {
+  background: #ac64f0;
+  color: #f7f3ff;
+  border: none;
+  cursor: pointer;
 }
 
 h2 {
@@ -94,10 +113,32 @@ footer {
 }
 
 .flash-fiction-stories {
-  color: blueviolet;
+  color: #f534d9;
   text-decoration: none;
 }
 
 .flash-fiction-stories:hover {
   text-decoration: underline;
+}
+
+.dark-theme {
+  background: #3c3232;
+}
+
+.dark-theme h3,
+.dark-theme p,
+.dark-theme li,
+.dark-theme small,
+.dark-theme footer {
+  color: #f7f3ff;
+}
+
+.dark-theme button {
+  border: none;
+  color: #f534d9;
+}
+
+.dark-theme button:hover {
+  background: #f534d9;
+  color: #f7f3ff;
 }

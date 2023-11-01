@@ -15,6 +15,7 @@
     <title>GLD | Indie Author</title>
   </head>
   <body>
+    <button>Dark Theme</button>
     <h1>My Books</h1>
 
     <div class="container">
@@ -200,5 +201,17 @@
     </p>
 
     <footer>Coded by Genevieve Leanne Dominguez</footer>
+
+    <script>
+      function changeTheme(event) {
+        event.preventDefault();
+
+        let page = document.querySelector("body");
+        page.classList.toggle("dark-theme");
+      }
+
+      let button = document.querySelector("button");
+      button.addEventListener("click", changeTheme);
+    </script>
   </body>
 </html>

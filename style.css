@@ -4,7 +4,7 @@ h3,
 small,
 a,
 footer {
-  color: #ac64f0;
+  color: #3c3232;
 }
 
 h1,
@@ -25,7 +25,7 @@ footer {
 h1,
 h2 {
   font-family: "Lobster Two", sans-serif;
-  color: #f534d9;
+  color: #a258e8;
 }
 
 p,
@@ -43,7 +43,7 @@ li {
 }
 
 body {
-  background-color: #f7f3ff;
+  background-color: #e0b0ff;
 }
 
 h1 {
@@ -54,8 +54,8 @@ h1 {
 button {
   margin-top: 10px;
   background-color: #f7f3ff;
-  color: #ac64f0;
-  border: 2px solid #ac64f0;
+  color: #3c3232;
+  border: 2px solid #3c3232;
   font-size: 18px;
   padding: 7px 10px;
   border-radius: 30px;
@@ -63,7 +63,7 @@ button {
 }
 
 button:hover {
-  background: #ac64f0;
+  background: #3c3232;
   color: #f7f3ff;
   border: none;
   cursor: pointer;
@@ -110,11 +110,11 @@ footer {
 }
 
 .meryle-lancelot-book-grid {
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .flash-fiction-stories {
-  color: #f534d9;
+  color: #3c3232;
   text-decoration: none;
 }
 
@@ -130,13 +130,20 @@ footer {
 .dark-theme p,
 .dark-theme li,
 .dark-theme small,
+.dark-theme .flash-fiction-stories,
+.dark-theme .footer-link,
 .dark-theme footer {
   color: #f7f3ff;
 }
 
-.dark-theme button {
-  border: none;
+.dark-theme h1,
+.dark-theme h2 {
   color: #f534d9;
+}
+
+.dark-theme button {
+  color: #f534d9;
+  border: 2px solid #f534d9;
 }
 
 .dark-theme button:hover {
